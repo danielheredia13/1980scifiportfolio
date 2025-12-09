@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 10 26 10; /* sci-dark */
+    --foreground: 224 224 224; /* sci-text */
+    --card: 26 58 26; /* sci-darkGreen */
+    --card-foreground: 224 224 224;
+    --popover: 26 58 26;
+    --popover-foreground: 224 224 224;
+    --primary: 255 102 0; /* sci-orange */
+    --primary-foreground: 10 26 10;
+    --secondary: 45 90 45; /* sci-green */
+    --secondary-foreground: 224 224 224;
+    --muted: 42 42 42; /* sci-gray */
+    --muted-foreground: 160 160 160; /* sci-textDark */
+    --accent: 255 136 51; /* sci-neonOrange */
+    --accent-foreground: 10 26 10;
+    --destructive: 220 38 38;
+    --destructive-foreground: 224 224 224;
+    --border: 45 90 45;
+    --input: 45 90 45;
+    --ring: 255 102 0;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-sci-dark text-sci-text;
+    font-family: 'Courier New', monospace;
+    background-color: #0a1a0a;
+    color: #e0e0e0;
+  }
+}
+
+@layer utilities {
+  /* 1980s sci-fi grid background pattern */
+  .sci-grid-bg {
+    background-image: 
+      linear-gradient(rgba(255, 102, 0, 0.03) 2px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 102, 0, 0.03) 2px, transparent 1px);
+    background-size: 50px 50px;
+  }
+
+  /* Scanline effect */
+  .sci-scanlines::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: repeating-linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.15),
+      rgba(0, 0, 0, 0.15) 1px,
+      transparent 1px,
+      transparent 2px
+    );
+    pointer-events: none;
+  }
+
+  /* Glowing border effect */
+  .sci-border-glow {
+    border: 1px solid rgba(255, 102, 0, 0.5);
+    box-shadow: 0 0 10px rgba(255, 102, 0, 0.3);
+  }
+
+  .sci-border-glow:hover {
+    border-color: rgba(255, 102, 0, 0.8);
+    box-shadow: 0 0 15px rgba(255, 102, 0, 0.5);
+  }
+
+  /* Terminal-style text */
+  .sci-terminal {
+    font-family: 'Courier New', monospace;
+    color: #00ff00;
+    text-shadow: 0 0 5px rgba(0, 255, 0, 0.5);
+  }
+
+  /* HUD-style elements */
+  .sci-hud {
+    border: 2px solid rgba(255, 102, 0, 0.6);
+    background-color: rgba(10, 26, 10, 0.8);
+    box-shadow: 
+      inset 0 0 10px rgba(255, 102, 0, 0.2),
+      0 0 20px rgba(255, 102, 0, 0.3);
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a1a0a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2d5a2d;
+  border: 1px solid #ff6600;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4a7c4a;
+}
