@@ -15,13 +15,6 @@ export function About() {
             <Card>
               <CardContent className="pt-6 text-md">
                 <p className="text-sci-text font-mono leading-relaxed mb-4">
-                  Transitioning from business development and sales management
-                  across Latin America to front-end development and AI agentic
-                  chatbot systems. My background in opening markets, managing
-                  cross-cultural teams, and coordinating complex projects brings
-                  a unique perspective to building user-focused applications.
-                </p>
-                <p className="text-sci-text font-mono leading-relaxed mb-4">
                   At Hound Express, I championed modern frontend frameworks
                   while working with legacy systems, demonstrating adaptability
                   and technical leadership. My experience managing client
@@ -66,8 +59,9 @@ export function About() {
                       <Badge variant="secondary">React</Badge>
                       <Badge variant="secondary">Next.js</Badge>
                       <Badge variant="secondary">TypeScript</Badge>
+                      <Badge variant="secondary">Node.js</Badge>
+                      <Badge variant="secondary">Express</Badge>
                       <Badge variant="secondary">AI Agents</Badge>
-                      <Badge variant="secondary">LangChain</Badge>
                     </div>
                   </div>
                   

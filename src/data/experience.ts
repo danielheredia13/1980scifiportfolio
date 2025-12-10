@@ -13,10 +13,10 @@ export const experience: ExperienceItem[] = [
     location: "Mexico City, Mexico",
     period: "Aug 2023 - May 2024",
     achievements: [
-      "Built a human resources application for internal company use, frontend: Next.js, React, Javascript, Bootstrap, Git, Docker.",
+      "Built a HR application for internal company use, frontend: Next.js, React, Javascript, Bootstrap, Git, Docker.",
       "Managed client interactions across diverse cultural backgrounds, leveraging strong intercultural communication to support global partnerships.",
-      "Promoted the use of a frontend framework for the human resources application; the company's main application uses HTML, CSS, JavaScript, and JQuery.",
-      "Implemented several features with new screens for the main application (Sabueso), HTML, CSS, JavaScript, JQuery,  Java, Spring Boot.",
+      "Promoted the use of a frontend framework for the HR application; the company's main application uses HTML, CSS, JavaScript, and JQuery.",
+      "Implemented several features with new UIs for the main application (Sabueso), HTML, CSS, JavaScript, JQuery, Java, Spring Boot.",
       "Implemented a new user flow for the HoundBox application, for the relaunch of the service, HTML, CSS, JavaScript, JQuery, Java, Spring Boot.",
     ],
   },
