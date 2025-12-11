@@ -14,18 +14,14 @@ export function About() {
           
             <Card>
               <CardContent className="pt-6 text-md">
+              <p className="text-sci-text font-mono leading-relaxed mb-4">
+              I’m a front-end and full-stack developer based in Ottawa, specializing in building modern, scalable web applications using React, Next.js, TypeScript, and Node.js. I’ve delivered production-ready features for real companies, including internal HR tools, redesigned user flows, and updates to legacy systems.
+                </p>
                 <p className="text-sci-text font-mono leading-relaxed mb-4">
-                  At Hound Express, I championed modern frontend frameworks
-                  while working with legacy systems, demonstrating adaptability
-                  and technical leadership. My experience managing client
-                  interactions across diverse cultural backgrounds enhances my
-                  ability to create intuitive, accessible user experiences.
+                I’m passionate about creating clean, intuitive interfaces and building solutions that simplify complex workflows. Recently, I developed an agentic AI chatbot platform using LangChain, LangGraph, and RAG pipelines—strengthening my skills in AI orchestration and full-stack development.
                 </p>
                 <p className="text-sci-text font-mono leading-relaxed">
-                  Today, I focus on building intelligent web applications using
-                  React, Next.js, TypeScript, and AI frameworks like LangChain
-                  and LangGraph, creating solutions that bridge the gap between
-                  complex AI capabilities and user-friendly interfaces.
+                  With a background leading cross-cultural teams and managing client interactions across Latin America, I bring strong communication skills and a collaborative mindset to every project.
                 </p>
               </CardContent>
             </Card>
