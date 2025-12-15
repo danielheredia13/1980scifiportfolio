@@ -103,7 +103,7 @@ export function Contact() {
                 </div>
               </div>
               <div className="mt-8 pt-6 border-t border-sci-green">
-                <p className="text-sci-textDark font-mono text-md leading-relaxed">
+                <p className="text-sci-text font-mono text-md leading-relaxed">
                   &gt; Feel free to reach out for collaboration opportunities,
                   freelance projects, or just to connect about technology and
                   development.

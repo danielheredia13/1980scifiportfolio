@@ -31,9 +31,8 @@
     @apply border-border;
   }
   body {
-    @apply bg-sci-dark text-sci-text;
+    @apply bg-sci-lessDark text-sci-text;
     font-family: 'Courier New', monospace;
-    background-color: #0a1a0a;
     color: #e0e0e0;
   }
 }
@@ -110,6 +109,7 @@ html {
 ::-webkit-scrollbar-thumb {
   background: #2d5a2d;
   border: 1px solid #ff6600;
+  border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {

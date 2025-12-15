@@ -36,21 +36,21 @@ export function About() {
                 </h3>
                 <div className="space-y-4 font-mono text-md">
                   <div>
-                    <span className="text-sci-textDark">LOCATION:</span>
+                    <span className="text-sci-text">LOCATION:</span>
                     <span className="text-sci-text ml-2">Ottawa, ON, Canada</span>
                   </div>
                   <div>
-                    <span className="text-sci-textDark">LANGUAGES:</span>
+                    <span className="text-sci-text">LANGUAGES:</span>
                     <span className="text-sci-text ml-2">English, Spanish</span>
                   </div>
                   <div>
-                    <span className="text-sci-textDark">EDUCATION:</span>
+                    <span className="text-sci-text">EDUCATION:</span>
                     <span className="text-sci-text ml-2">
                       Bachelor of Business Administration
                     </span>
                   </div>
                   <div>
-                    <span className="text-sci-textDark">CURRENT FOCUS:</span>
+                    <span className="text-sci-text">CURRENT FOCUS:</span>
                     <div className="mt-2 flex flex-wrap gap-2">
                       <Badge variant="secondary">React</Badge>
                       <Badge variant="secondary">Next.js</Badge>

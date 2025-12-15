@@ -8,7 +8,7 @@ const navItems = [
   { label: "ABOUT", id: "about" },
   { label: "SKILLS", id: "skills" },
   { label: "EXPERIENCE", id: "experience" },
-  { label: "PROJECTS", id: "projects" },
+  { label: "PROJECT", id: "projects" },
   { label: "CONTACT", id: "contact" },
 ]
 
@@ -67,8 +67,8 @@ export function NavBar() {
                 className={cn(
                   "font-mono text-md",
                   activeSection === item.id
-                    ? "text-sci-orange border-b-2 border-sci-orange rounded-none"
-                    : "text-sci-textDark hover:text-sci-orange"
+                    ? "text-sci-orange border-b-2 border-sci-orange rounded-t-md rounded-b-none"
+                    : "text-sci-text hover:text-sci-orange"
                 )}
               >
                 {item.label}
@@ -103,7 +103,7 @@ export function NavBar() {
                     "font-mono text-sm justify-start",
                     activeSection === item.id
                       ? "text-sci-orange bg-sci-darkGreen"
-                      : "text-sci-textDark hover:text-sci-orange"
+                      : "text-sci-text hover:text-sci-orange"
                   )}
                 >
                   {item.label}

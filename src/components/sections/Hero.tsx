@@ -39,7 +39,7 @@ export function Hero() {
               DANIEL HEREDIA
             </h1>
             <div className="h-1 w-32 mx-auto bg-sci-orange shadow-sci-glow" />
-            <h2 className="text-xl md:text-2xl lg:text-3xl font-mono text-sci-textDark mt-6">
+            <h2 className="text-xl md:text-2xl lg:text-3xl font-mono text-sci-text mt-6">
               SOFTWARE ENGINEER
             </h2>
           </div>

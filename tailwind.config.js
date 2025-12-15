@@ -11,6 +11,7 @@ export default {
         // 1980s sci-fi theme: dark green and orange
         sci: {
           dark: "#0a1a0a",      // Very dark green background
+          lessDark: "#102b10",      // Less dark green background
           darkGreen: "#1a3a1a",  // Dark green
           green: "#2d5a2d",      // Medium green
           lightGreen: "#4a7c4a", // Light green
