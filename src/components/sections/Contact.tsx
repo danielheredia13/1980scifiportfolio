@@ -3,7 +3,7 @@ import { SectionTitle } from "@/components/layout/SectionTitle"
 import { MaxWidthWrapper } from "@/components/layout/MaxWidthWrapper"
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { Mail, Phone, MapPin, Linkedin, Github } from "lucide-react"
+import { Mail, MapPin, Linkedin, Github } from "lucide-react"
 
 export function Contact() {
   return (
@@ -18,20 +18,14 @@ export function Contact() {
                 GET IN TOUCH
               </h3>
               <div className="space-y-4 font-mono">
-                <a
-                  href="mailto:danielheredia13@gmail.com"
+                <div
+                  
                   className="flex items-center gap-3 text-sci-text hover:text-sci-orange transition-colors group"
                 >
                   <Mail className="h-5 w-5 text-sci-orange group-hover:scale-110 transition-transform" />
                   <span>danielheredia13@gmail.com</span>
-                </a>
-                <a
-                  href="tel:+13432626041"
-                  className="flex items-center gap-3 text-sci-text hover:text-sci-orange transition-colors group"
-                >
-                  <Phone className="h-5 w-5 text-sci-orange group-hover:scale-110 transition-transform" />
-                  <span>+1 (343) 2626041</span>
-                </a>
+                </div>
+                
                 <div className="flex items-center gap-3 text-sci-text">
                   <MapPin className="h-5 w-5 text-sci-orange" />
                   <span>Ottawa, ON, Canada</span>
