@@ -15,7 +15,7 @@ export function About() {
             <Card>
               <CardContent className="pt-6 text-md">
               <p className="text-sci-text font-mono leading-relaxed mb-4">
-              I’m a front-end and full-stack developer based in Ottawa, specializing in building modern, scalable web applications using React, Next.js, TypeScript, and Node.js. I’ve delivered production-ready features for real companies, including internal HR tools, redesigned user flows, and updates to legacy systems.
+              I’m a Software Engineer based in Ottawa, specializing in building modern, scalable web applications using React, Next.js, TypeScript, and Node.js. I’ve delivered production-ready features for real companies, including internal HR tools, redesigned user flows, and updates to legacy systems.
                 </p>
                 <p className="text-sci-text font-mono leading-relaxed mb-4">
                 I’m passionate about creating clean, intuitive interfaces and building solutions that simplify complex workflows. Recently, I developed an agentic AI chatbot platform using LangChain, LangGraph, and RAG pipelines—strengthening my skills in AI orchestration and full-stack development.

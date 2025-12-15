@@ -23,6 +23,7 @@ function App() {
           &gt; PORTFOLIO SYSTEM v1.0 | DANIEL HEREDIA © {new Date().getFullYear()}
         </p>
       </footer>
+      <script src="http://localhost:5000/api/widget.js?chatbotId=693ae239fe0c75f3bf158200" async></script>
     </div>
   )
 }

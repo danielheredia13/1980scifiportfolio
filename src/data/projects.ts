@@ -13,7 +13,9 @@ export const projects: Project[] = [
   {
     name: "AI Agentic Chatbot Platform",
     description:
-      "AI agentic chatbot platform for non-technical people, RAG (Retrieval-augmented generation) and agent orchestration for functions such as customer service on websites, knowledge source in companies and many more.",
+      `Full agentic chatbot system using RAG (Retrieval-Augmented Generation), enabling multi-step reasoning and tool-calling.
+       Implemented a multi-bot architecture with per-bot configuration, isolated knowledge sources, and persistent storage. 
+       Integrated vector search, file ingestion pipelines, and structured dataset processing`,
     longDescription:
       "A comprehensive AI-powered chatbot platform designed to make advanced AI capabilities accessible to non-technical users. The platform leverages RAG (Retrieval-augmented generation) and agent orchestration to provide intelligent customer service solutions, knowledge management systems, and more. Built with modern web technologies and AI frameworks to deliver scalable, efficient AI interactions.",
     technologies: [
@@ -47,3 +49,10 @@ export const projects: Project[] = [
   },
 ]
 
+
+/*
+"AI agentic chatbot platform for non-technical people, RAG (Retrieval-augmented generation) and agent orchestration for functions such as customer service on websites, knowledge source in companies and many more.",
+   
+      "A comprehensive AI-powered chatbot platform designed to make advanced AI capabilities accessible to non-technical users. The platform leverages RAG (Retrieval-augmented generation) and agent orchestration to provide intelligent customer service solutions, knowledge management systems, and more. Built with modern web technologies and AI frameworks to deliver scalable, efficient AI interactions.",
+
+*/ 

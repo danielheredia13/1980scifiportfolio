@@ -39,7 +39,7 @@ function ProjectCard({ project }: { project: typeof projects[0] }) {
       <CardHeader>
         <CardTitle className="text-xl">{project.name}</CardTitle>
         <CardDescription className="font-mono text-md">
-          {project.description}
+          {project.description.split(".").map((q,i) => <p key={i} className="mb-2">* {q}.</p>)}
         </CardDescription>
       </CardHeader>
       <CardContent className="flex-1">
@@ -83,7 +83,7 @@ function ProjectCard({ project }: { project: typeof projects[0] }) {
             <DialogContent className="max-w-2xl">
               <DialogHeader>
                 <DialogTitle>{project.name}</DialogTitle>
-                <DialogDescription className="font-mono">
+                <DialogDescription className="font-mono font text-md text-sci-text">
                   {project.longDescription}
                 </DialogDescription>
               </DialogHeader>
@@ -95,7 +95,7 @@ function ProjectCard({ project }: { project: typeof projects[0] }) {
                       {project.features.map((feature, idx) => (
                         <li
                           key={idx}
-                          className="text-sci-text font-mono text-sm flex items-start"
+                          className="text-sci-text font-mono text-md flex items-start"
                         >
                           <span className="text-sci-orange mr-2">▸</span>
                           <span>{feature}</span>
@@ -108,7 +108,7 @@ function ProjectCard({ project }: { project: typeof projects[0] }) {
                   <h4 className="text-sci-orange font-mono mb-2">Technologies:</h4>
                   <div className="flex flex-wrap gap-2">
                     {project.technologies.map((tech) => (
-                      <Badge key={tech} variant="secondary" className="font-mono">
+                      <Badge key={tech} variant="secondary" className="font-mono text-md">
                         {tech}
                       </Badge>
                     ))}
