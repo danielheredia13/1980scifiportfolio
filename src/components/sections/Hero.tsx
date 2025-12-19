@@ -1,9 +1,13 @@
+
 import { Button } from "@/components/ui/button"
 import { MaxWidthWrapper } from "@/components/layout/MaxWidthWrapper"
 import { Badge } from "@/components/ui/badge"
+import { TerminalOutput } from "@/components/ui/TerminalOutput"
 import { ArrowDown } from "lucide-react"
 
 export function Hero() {
+ 
+
   const scrollToProjects = () => {
     document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" })
   }
@@ -11,6 +15,10 @@ export function Hero() {
   const scrollToContact = () => {
     document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })
   }
+
+
+
+ 
 
   return (
     <section
@@ -70,7 +78,15 @@ export function Hero() {
             </Button>
           </div>
 
-         
+          {/* Terminal Output - Chatbot Invitation */}
+          <div className="pt-6">
+            <TerminalOutput
+              text={
+                   `> The chatbot featured in my portfolio is part of a the project "AI Agentic Chatbot 
+                  Platform", listed in the Project section and available as a practical demonstration of its capabilities.`
+              }
+            />
+          </div>
         </div>
       </MaxWidthWrapper>
     </section>
