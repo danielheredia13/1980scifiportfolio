@@ -23,7 +23,7 @@ export function Hero() {
   return (
     <section
       id="hero"
-      className="pt-20 pb-5 flex items-center justify-center relative sci-grid-bg"
+      className="pt-20 pb-5 flex items-center justify-center relative"
     >
       <div className="absolute inset-0 sci-scanlines pointer-events-none" />
       <MaxWidthWrapper className="text-center relative z-10">

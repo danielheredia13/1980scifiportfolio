@@ -8,7 +8,7 @@ import { Contact } from "./components/sections/Contact"
 
 function App() {
   return (
-    <div className="min-h-screen ">
+    <div className="min-h-screen  sci-grid-bg">
       <NavBar />
       <main>
         <Hero />
@@ -18,7 +18,7 @@ function App() {
         <Projects />
         <Contact />
       </main>
-      <footer className="border-t border-sci-green py-6 text-center">
+      <footer className="border-t border-sci-green py-6 text-center bg-sci-dark">
         <p className="text-sci-textDark font-mono text-sm">
           &gt; PORTFOLIO SYSTEM v1.0 | DANIEL HEREDIA © {new Date().getFullYear()}
         </p>

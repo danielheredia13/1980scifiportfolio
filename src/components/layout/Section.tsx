@@ -12,7 +12,7 @@ export function Section({ children, className, id }: SectionProps) {
     <section
       id={id}
       className={cn(
-        "py-5 relative sci-grid-bg",
+        "py-5 relative",
         className
       )}
     >

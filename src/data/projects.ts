@@ -38,7 +38,6 @@ export const projects: Project[] = [
     ],
     features: [
       "RAG (Retrieval-augmented generation) for intelligent responses",
-      "Agent orchestration for complex workflows",
       "Customer service automation",
       "Knowledge base integration",
       "User authentication and management",
