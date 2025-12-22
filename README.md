@@ -1,6 +1,6 @@
 # Portfolio Website
 
-A modern, sci-fi-themed portfolio website showcasing the work and skills of Daniel Heredia, a Software Engineer specializing in React, Next.js, and AI agentic systems.
+ I'm a Software Engineer specializing in React, Next.js, Node.js, Express and AI agentic systems.
 
 ## 🚀 Features
 
