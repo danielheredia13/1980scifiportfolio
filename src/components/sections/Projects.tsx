@@ -118,6 +118,23 @@ function ProjectCard({ project }: { project: typeof projects[0] }) {
             </DialogContent>
           </Dialog>
         )}
+        <Button
+            size="sm"
+          variant="default"
+            asChild
+            className="flex-1 min-w-[120px]"
+          >
+            <a
+              href="https://github.com/danielheredia13/lolo"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="flex items-center">
+             
+              Source Code
+              </div>
+            </a>
+          </Button>
       </CardFooter>
     </Card>
   )
